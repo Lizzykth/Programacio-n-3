@@ -1,0 +1,195 @@
+.st0 {
+    fill: none;
+    stroke: #007A6B;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: #31B39F;
+}
+
+.st2 {
+    fill: #E0F1F0;
+}
+
+.st3 {
+    fill: #202020;
+}
+
+.st4 {
+    fill: none;
+    stroke: #202020;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    fill: #88BD24;
+}
+
+.st6 {
+    fill: #FFEA09;
+}
+
+.st7 {
+    fill: #E8441E;
+}
+
+.st8 {
+    fill: #9BD5E3;
+}
+/*pinguino*/
+.st9 {
+    fill: #263239;
+}
+
+.st10 {
+    fill: #F7F8E7;
+}
+
+.st11 {
+    fill: #1F1F1F;
+}
+
+.st12 {
+    fill: #FDFDFD;
+}
+
+.st13 {
+    fill: #F1D040;
+}
+
+.st14 {
+    fill: #E6B63C;
+}
+/* fondo*/
+	.st00{fill:url(#SVGID_1_);}
+	.st01{fill:#C0F0FC;}
+	.st02{fill:#009C5D;}
+	.st03{fill:#A0E089;}
+	.st04{opacity:0.64;fill:#009C5D;}
+	.st05{fill:#F8FAFB;}
+	.st06{fill:#00A742;}
+	.st07{opacity:0.54;fill:#00A742;}
+	.st08{fill:#E27148;}
+	.st09{fill:#5D4552;}
+	.st010{opacity:0.85;fill:#A0E089;}
+	.st011{opacity:0.43;fill:#A0E089;}
+	.st012{fill:#61BB7A;}
+	.st013{opacity:0.42;fill:#61BB7A;}
+	.st014{fill:#00814E;}
+	.st015{clip-path:url(#SVGID_3_);}
+	.st016{fill:#FFEC00;}
+	.st017{opacity:0.37;fill:#009C5D;}
+.menu {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    height: 5px;
+    width: 100%;
+    top: 12px;
+    z-index: 100;
+    position: absolute;
+}
+
+.menu1 {
+    display: flex;
+    margin-right: 10px
+}
+
+.menu1 a {
+    text-decoration: none;
+    display: block;
+    padding: 23px 20px;
+    color: rgb(90, 181, 241);
+    font-size: medium;
+    text-transform: uppercase;
+}
+h1 {
+    color: rgb(105, 163, 202);
+    text-align: center;
+    position: top;
+}
+
+
+div svg {
+    width: 1632px;
+    height:699px;
+  }
+body {
+    size: 1900px 1000px;
+    background-image: url(/Programación/fondo.jpg);
+    background-size: 1700px 1000px;
+    display: block;
+    }
+
+:not(svg) {
+    transform-origin: 45px -25px;
+}
+
+*{
+    size-adjust: 1900px 1000px;;
+}
+img.img1{
+   padding-bottom: 20px; 
+}
+body,html {
+    padding:0;
+    margin:0;
+    height:100%;
+  overflow:hidden; 
+}
+.eye{
+    position:absolute;
+    /* height:200px;
+    width:200px; */
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+  }
+  
+  .heaven
+  {
+    position:absolute;
+    /* height:300px;
+    width:300px; */
+    z-index: -1;
+  }
+@keyframes gameboy{
+    0% {
+        transform: translateX(0);
+    }
+    6% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(100px);
+    }
+
+    15% {
+        transform: translateX(140px);
+    }
+
+    25% {
+        transform: translateX(170px);
+    }
+
+    100% {
+        transform: translateX(220px);
+    }
+
+
+}
+.izq {
+    position:absolute;
+    top: 20px;
+    left : 40px;
+    z-index: 1;
+    animation-name:gameboy; 
+    animation-duration: 5s;
+    animation-direction: linear ;
+    animation-iteration-count: inherit;
+    animation-fill-mode: forwards;
+    transform: translateX(0);
+  }
